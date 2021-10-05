@@ -19,6 +19,7 @@ import java.util.List;
 
 @Slf4j
 @RestController
+@RequestMapping("/api")
 @Api(tags =  "ONLINEREG")
 public class RegistrationController {
 
